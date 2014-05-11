@@ -1,6 +1,3 @@
-TapeEquilibrium
----------------
-
 function solution(A) {
     var left = A[0],
         right = A.slice(1).reduce(function(prev, cur){ return prev + cur; }),
