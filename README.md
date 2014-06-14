@@ -1,0 +1,2 @@
+js-codility-solution
+====================
