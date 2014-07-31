@@ -2,9 +2,7 @@ function solution(S){
 	var count = 0;
     var s = S.split('');
     var j = 1;
-    
-    console.log(s)
-    
+
 	for (var i=0; i<s.length; i++){
 	    var t = s.slice(i,i+j);
 	    var r = t
@@ -15,8 +13,8 @@ function solution(S){
 	            j++;
 	        }
 	    }
-	    
 	}
+
 	if (count >  100000000)
 		return -1
 	else
